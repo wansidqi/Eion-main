@@ -1,0 +1,77 @@
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+}
+
+/* ------------ */
+.text-primary {
+  color: #5a8dee !important;
+}
+
+.rc-accordion-toggle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #252525;
+  transition: 0.3s;
+}
+.rc-accordion-toggle.active {
+  background: radial-gradient(100% 100% at 50% 0%, #56a1e7 0%, #00407a 100%);
+  border-radius: 5px;
+}
+.rc-accordion-toggle.active .rc-accordion-icon {
+  transform: rotate(180deg);
+  color: #252525;
+}
+
+.rc-accordion-card {
+  background: linear-gradient(180deg, #212121 0%, rgba(0, 0, 0, 0.73) 100%);
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+}
+.rc-accordion-card:last-child {
+  margin-bottom: 0;
+}
+.rc-accordion-title {
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+  margin-bottom: 0;
+  transition: 0.3s;
+}
+.rc-accordion-toggle.active .rc-accordion-title {
+  color: #fff;
+}
+.rc-accordion-icon {
+  position: relative;
+  top: 2px;
+  color: #475f7b;
+  transition: 0.35s;
+  font-size: 12px;
+}
+.rc-accordion-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 15px;
+}
+.rc-accordion-body p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+.rc-collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+.rc-collapse.show {
+  height: auto;
+}

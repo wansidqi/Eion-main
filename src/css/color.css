@@ -1,0 +1,103 @@
+@tailwind utilities;
+
+@layer utilities {
+  .gradient {
+    background-image: linear-gradient(180deg, #213385 0%, rgba(0, 133, 255, 0) 100%);
+  }
+
+  .blue-shadow-glow {
+    border: 1px solid #0185ff;
+    box-shadow: 0 0 10px #0185ff;
+  }
+
+  .forge-bg {
+    background-image: url('/src/assets/images/forge-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bluetext {
+    @apply text-[#0185FF];
+  }
+
+  .blueborder {
+    @apply border-[#0185FF];
+  }
+
+  .bluebg {
+    @apply bg-[#0185FF];
+  }
+
+  .redtext {
+    @apply text-[#FF0000];
+  }
+
+  .redbg {
+    @apply bg-[#FF0000];
+  }
+
+  .redborder {
+    @apply border-[#FF0000];
+  }
+  .blue-radial-gradient {
+    background: radial-gradient(#0185ff 1%, #072847 100%);
+    color: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25);
+  }
+  .red-radial-gradient {
+    background: radial-gradient(#ff3838 1.12%, #811f00 100%);
+    box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25);
+    border-radius: 2px;
+    color: #ffffff;
+  }
+
+  .purple-radial-gradient {
+    /* Component 37 */
+    background: radial-gradient(#79037b 1.12%, #ce19fb 100%);
+
+    /* border-style: 2px solid;
+      border-color: red; */
+    box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25);
+    color: #ffffff;
+  }
+  .black-bordered {
+    background-color: black;
+    border: 1px solid;
+    box-shadow: 0px 0px 2px 2px linear-gradient(#ffffff 90%, #811f00 10%);
+  }
+  .purple-linear-gradient {
+    background: linear-gradient(rgba(121, 3, 123, 100%), rgba(206, 25, 251, 100%));
+  }
+  .blue-radial-linear {
+    /* background: linear-gradient(rgba(3, 66, 123, 100%), rgba(25, 142, 251, 100%)); */
+    background: linear-gradient(rgba(3, 66, 123, 100%), rgba(25, 142, 251, 100%));
+  }
+  .shadow {
+    box-shadow: 0px 2px 30px rgba(44, 104, 159, 0.9), inset 0px 0px 5px rgba(255, 255, 255, 0.7);
+  }
+
+  .blue-button {
+    background: radial-gradient(87.3% 87.3% at 49.77% 0%, #03427b 0%, #198efb 100%);
+    mix-blend-mode: normal;
+    border-radius: 3px;
+  }
+  .text-shadow {
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .blue-border {
+    @apply bg-gradient-to-tr from-[#FFFFFF] to-[#0185FF];
+  }
+
+  .active-accordion {
+    background: linear-gradient(180deg, #0185ff 0%, #001358 100%);
+    border-radius: 5px;
+  }
+
+  .arrow-box {
+    background: #4b4b4b;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+}

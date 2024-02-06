@@ -1,0 +1,61 @@
+.inactive {
+  background: radial-gradient(94.52% 93% at 44.88% 0%, rgba(113, 113, 113, 0.7) 0%, rgba(21, 21, 21, 0.7) 100%);
+  box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+  /* @apply bg-gray-500; */
+}
+
+.active {
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(22, 143, 255, 0.7) 0%, rgba(0, 92, 177, 0.7) 100%);
+  box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+  /* @apply bg-gradient-to-b from-[#168FFF] to-[#005CB1]; */
+}
+
+.blue-btn {
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(22, 143, 255, 0.7) 0%, rgba(0, 92, 177, 0.7) 100%);
+  box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+  
+}
+
+/* .blue-btn:hover{
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(3, 48, 90, 0.7) 0%, rgba(0, 92, 177, 0.7) 100%);
+  scale: 1.1;
+} */
+.red-btn{
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(76, 33, 25) 0%, rgba(255, 54, 10) 100%);
+  box-shadow: 0px 0px 4px rgba(148, 148, 148, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+/* .red-btn:hover{
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(76, 33, 25) 0%, rgba(255, 54, 10) 100%);
+  scale: 1.1;
+
+} */
+
+.black-btn{
+  background: radial-gradient(94.52% 93% at 44.88% 0%, rgba(113, 113, 113, 0.7) 0%, rgba(21, 21, 21, 0.7) 100%);
+  box-shadow: 0px 0px 4px rgba(44, 104, 159, 0.25), inset 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+.black-btn:hover{
+  background: radial-gradient(87.64% 93% at 55.79% 0%, rgba(177, 189, 201, 0.7) 0%, rgba(173, 179, 184, 0.7) 100%);
+  scale: 1.1;
+}
+
+.turqoise-btn{
+  background: radial-gradient(94.52% 93% at 44.88% 0%, rgba(4, 210, 173, 0.7) 0%, rgba(0, 111, 146) 100%);
+}
+.turqoise-btn:hover{
+  background: radial-gradient(94.52% 93% at 44.88% 0%, rgba(8, 86, 73, 0.7) 0%, rgb(88, 193, 225) 100%);
+  scale: 1.1;
+}
+ .active-icon-btn {
+
+  /* background-color: black; */
+  box-shadow: 0px 2px 30px rgba(44, 104, 159, 0.9), inset 0px 0px 5px rgba(255, 255, 255, 0.7);
+ }
+ .pentagon {
+  /* width: 100px;
+  height: 80px; */
+  border-right: 50px pink;
+  border-left: 50px black;
+  /* background-color: chocolate; */
+}
+ 

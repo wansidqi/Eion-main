@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 494px;
+  height: 306px;
+  /* left: 713px; */
+  top: calc(50% - 306px / 2 - 87px);
+
+  border-width: 8px;
+  border-color: #0185ff;
+  border-style: double;
+
+  background: #242424;
+  backdrop-filter: blur(35px);
+  border-radius: 4px;
+
+  font-weight: 600;
+}
+
+.box-congrats {
+  box-sizing: border-box;
+  width: 494px;
+  height: 350px;
+  /* left: 713px; */
+  top: calc(50% - 306px / 2 - 87px);
+
+  border-width: 8px;
+  border-color: #0185ff;
+  border-style: double;
+
+  background: #242424;
+  backdrop-filter: blur(35px);
+  border-radius: 4px;
+
+  font-weight: 600;
+
+  position: relative;
+}
+
+.parent-image {
+  @apply relative flex h-[40vh] flex-col items-center justify-center overflow-hidden;
+}
+
+.image-mobile {
+  @apply absolute right-1/2 top-1/2 w-[30%] -translate-y-1/2 translate-x-1/2 object-contain sm:scale-[1];
+}
